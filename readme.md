@@ -1,10 +1,10 @@
-##spfx.js##
+## spfx.js ##
 The default rules specified by SPFx by default. This would be updated with each release of SPFx.
 
-##mycompany.js##
+## mycompany.js ##
 Extends the base rules from SPFx and could be further modified to dial back or wratchet up rules you / your org find useful.  This repo is just a sample, in reality, the extends here would need to be updated to reflect wherever the core rules ended up living.  For example: @pnp/eslint-config-spfx-react-defaults.
 
-##Using the package##
+## Using the package ##
 In your local SPFx project.
 
 npm install @brianpmccullough/spfx-eslint
@@ -28,3 +28,6 @@ module.exports = {
     }
   ]
 };
+
+## todo: ##
+Could/should the parser related configurations be applied to the spfx default config?
