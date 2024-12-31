@@ -11,6 +11,7 @@ npm install @brianpmccullough/spfx-eslint
 
 Update the eslintrc.json:
 
+```javascript
 require('@rushstack/eslint-config/patch/modern-module-resolution');
 module.exports = {
   extends: ['@brianpmccullough/spfx-eslint/configurations/spfx'],
@@ -28,6 +29,7 @@ module.exports = {
     }
   ]
 };
+```
 
 ## todo: ##
 Could/should the parser related configurations be applied to the spfx default config?
